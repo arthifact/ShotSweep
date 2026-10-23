@@ -1,0 +1,2 @@
+{"network": "inversionnet_l1ssim_s0_smoke", "model": "inversionnet", "loss": "l1ssim", "seed": 0, "params": 24409121, "family": "flatvel-a", "n": 48, "mae": 0.4895, "rmse": 0.561, "ssim": 0.0048}
+{"network": "ours_l1ssim_s0_smoke", "model": "ours", "loss": "l1ssim", "seed": 0, "params": 24476001, "family": "flatvel-a", "n": 48, "mae": 0.4989, "rmse": 0.5906, "ssim": -0.0053}

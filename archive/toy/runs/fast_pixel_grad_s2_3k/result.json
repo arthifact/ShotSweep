@@ -1,0 +1,33 @@
+{
+ "args": {
+  "input": "grad",
+  "state": "pixel",
+  "stages": 2,
+  "steps": 3000,
+  "ntrain": 1000,
+  "bs": 16,
+  "lr": 0.002,
+  "threads": 2,
+  "name": "pixel_grad_s2_3k",
+  "nolive": true
+ },
+ "stages": [
+  {
+   "stage": 0,
+   "test_err_ratio": 0.5774980187416077,
+   "ellipse": 0.6614604592323303,
+   "fault": 0.5271206498146057,
+   "misfit_ratio": 0.18787115812301636,
+   "train_s": 278.5575211048126
+  },
+  {
+   "stage": 1,
+   "test_err_ratio": 0.5367094278335571,
+   "ellipse": 0.6235378980636597,
+   "fault": 0.48461228609085083,
+   "misfit_ratio": 0.5352357625961304,
+   "train_s": 254.14546513557434
+  }
+ ],
+ "total_s": 568.0427761077881
+}

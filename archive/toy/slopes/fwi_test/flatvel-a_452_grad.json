@@ -1,0 +1,1 @@
+{"family": "flatvel-a", "model": 452, "start": "grad", "v1": 2383, "init": {"mae": 0.3614, "rmse": 0.4135, "ssim": 0.3537}, "final": {"mae": 0.3487, "rmse": 0.4132, "ssim": 0.3745}, "mean_model": {"mae": 0.5317, "rmse": 0.5958, "ssim": 0.0943}, "misfit_first": 704.1533813476562, "misfit_last": 1549.553466796875, "iterations": 36, "seconds": 107}

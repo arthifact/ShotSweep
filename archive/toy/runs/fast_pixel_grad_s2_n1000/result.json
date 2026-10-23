@@ -1,0 +1,32 @@
+{
+ "args": {
+  "input": "grad",
+  "state": "pixel",
+  "stages": 2,
+  "steps": 600,
+  "ntrain": 1000,
+  "bs": 16,
+  "lr": 0.002,
+  "threads": 4,
+  "name": null
+ },
+ "stages": [
+  {
+   "stage": 0,
+   "test_err_ratio": 0.6775252819061279,
+   "ellipse": 0.7225754857063293,
+   "fault": 0.6504952907562256,
+   "misfit_ratio": 0.2796679437160492,
+   "train_s": 60.61438703536987
+  },
+  {
+   "stage": 1,
+   "test_err_ratio": 0.5693714022636414,
+   "ellipse": 0.6113176941871643,
+   "fault": 0.5442036390304565,
+   "misfit_ratio": 0.5221126675605774,
+   "train_s": 53.5075261592865
+  }
+ ],
+ "total_s": 152.32275199890137
+}

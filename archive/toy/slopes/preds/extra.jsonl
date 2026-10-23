@@ -1,0 +1,4 @@
+{"train": "flatvel-a", "test": "flatvel-a", "variant": "raw", "ntrain": 100, "seed": 0, "steps": 2000, "mae": 0.2302, "rmse": 0.3039, "ssim": 0.4039, "seconds": 92}
+{"train": "flatvel-a", "test": "flatvel-a", "variant": "phys", "ntrain": 100, "seed": 0, "steps": 2000, "mae": 0.0601, "rmse": 0.0955, "ssim": 0.8294, "seconds": 90}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "raw", "ntrain": 100, "seed": 0, "steps": 2000, "mae": 0.2721, "rmse": 0.3694, "ssim": 0.429, "seconds": 93}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "phys", "ntrain": 100, "seed": 0, "steps": 2000, "mae": 0.1727, "rmse": 0.2443, "ssim": 0.5902, "seconds": 90}

@@ -1,0 +1,1 @@
+done pixel_grad_s2_n1000: stage0 test err 0.678  stage1 test err 0.569  total 152s

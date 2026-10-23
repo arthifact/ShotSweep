@@ -1,0 +1,73 @@
+{
+ "family": "flatfault-a",
+ "model": 0,
+ "init": "homogeneous",
+ "mode": "gradient",
+ "knots_z": [
+  0.0,
+  138.0,
+  276.0,
+  414.0,
+  552.0,
+  690.0
+ ],
+ "knots_v": [
+  2240.0,
+  2269.0,
+  2165.0,
+  1987.0,
+  1969.0,
+  1940.0
+ ],
+ "true_knots_v": [
+  2253.0,
+  2253.0,
+  2253.0,
+  3250.0,
+  3250.0,
+  3252.0
+ ],
+ "illumination": [
+  1.0,
+  1.0,
+  0.992,
+  0.632,
+  0.277,
+  0.0
+ ],
+ "floor": 0.0318,
+ "n_obs": 3221,
+ "init_mse_over_mean": 1.7764,
+ "dataset_mean_mse": 466298,
+ "final_mse_over_mean": 1.5906,
+ "history": [
+  {
+   "iter": 0,
+   "consistency": 0.57193
+  },
+  {
+   "iter": 1,
+   "consistency": 0.5413
+  },
+  {
+   "iter": 2,
+   "consistency": 0.50897
+  },
+  {
+   "iter": 3,
+   "consistency": 0.4642
+  },
+  {
+   "iter": 4,
+   "consistency": 0.45542
+  },
+  {
+   "iter": 5,
+   "consistency": 0.45484
+  },
+  {
+   "iter": 6,
+   "consistency": 0.45176
+  }
+ ]
+}

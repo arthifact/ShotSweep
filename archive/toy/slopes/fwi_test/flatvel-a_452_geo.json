@@ -1,0 +1,1 @@
+{"family": "flatvel-a", "model": 452, "start": "geo", "v1": 2383, "init": {"mae": 0.0538, "rmse": 0.1223, "ssim": 0.88}, "final": {"mae": 0.062, "rmse": 0.1271, "ssim": 0.8328}, "mean_model": {"mae": 0.5317, "rmse": 0.5958, "ssim": 0.0943}, "misfit_first": 705.159423828125, "misfit_last": 951.0650024414062, "iterations": 36, "seconds": 108}

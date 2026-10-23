@@ -1,0 +1,25 @@
+{
+ "args": {
+  "input": "gathers",
+  "state": "pixel",
+  "stages": 1,
+  "steps": 3000,
+  "ntrain": 1000,
+  "bs": 16,
+  "lr": 0.002,
+  "threads": 2,
+  "name": "pixel_gathers_s1_3k",
+  "nolive": true
+ },
+ "stages": [
+  {
+   "stage": 0,
+   "test_err_ratio": 0.3412947356700897,
+   "ellipse": 0.43232935667037964,
+   "fault": 0.286673903465271,
+   "misfit_ratio": 0.03468948230147362,
+   "train_s": 390.3784019947052
+  }
+ ],
+ "total_s": 392.41361021995544
+}

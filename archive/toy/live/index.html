@@ -1,0 +1,7 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Live training</title>
+<style>body{margin:0;background:#111;color:#ddd;font:14px system-ui}img{width:100%;display:block}#s{padding:8px 12px;white-space:pre}</style></head>
+<body><div id="s">waiting for training…</div><img id="im" src="live.png">
+<script>
+setInterval(async()=>{document.getElementById('im').src='live.png?'+Date.now();
+ try{const r=await fetch('status.txt?'+Date.now());document.getElementById('s').textContent=await r.text();}catch(e){}},1000);
+</script></body></html>

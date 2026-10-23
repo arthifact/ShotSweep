@@ -1,0 +1,1 @@
+{"family": "flatfault-a", "model": 452, "start": "geo", "v1": 2889, "init": {"mae": 1.0561, "rmse": 1.3211, "ssim": -0.2405}, "final": {"mae": 1.0313, "rmse": 1.2413, "ssim": -0.2209}, "mean_model": {"mae": 0.4912, "rmse": 0.5344, "ssim": 0.2931}, "misfit_first": 635.78125, "misfit_last": 3265.962890625, "iterations": 36, "seconds": 107}

@@ -1,0 +1,63 @@
+{"train": "flatvel-a", "test": "flatvel-a", "variant": "geo", "ntrain": 0, "seed": 0, "steps": 2000, "mae": 0.1132, "rmse": 0.1662, "ssim": 0.7617, "seconds": 0}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "geo", "ntrain": 0, "seed": 0, "steps": 2000, "mae": 0.2927, "rmse": 0.3928, "ssim": 0.4519, "seconds": 0}
+{"train": "flatvel-a", "test": "flatvel-a", "variant": "phys", "ntrain": 452, "seed": 0, "steps": 2000, "mae": 0.051, "rmse": 0.0811, "ssim": 0.8768, "seconds": 91}
+{"train": "flatvel-a", "test": "flatvel-a", "variant": "both", "ntrain": 452, "seed": 0, "steps": 2000, "mae": 0.0654, "rmse": 0.0953, "ssim": 0.8688, "seconds": 98}
+{"train": "flatvel-a", "test": "flatvel-a", "variant": "raw", "ntrain": 452, "seed": 0, "steps": 2000, "mae": 0.1203, "rmse": 0.1739, "ssim": 0.635, "seconds": 102}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "raw", "ntrain": 452, "seed": 0, "steps": 2000, "mae": 0.1191, "rmse": 0.1999, "ssim": 0.7022, "seconds": 93}
+{"train": "flatvel-a", "test": "flatvel-a", "variant": "phys", "ntrain": 100, "seed": 0, "steps": 2000, "mae": 0.0601, "rmse": 0.0955, "ssim": 0.8294, "seconds": 90}
+{"train": "flatvel-a", "test": "flatvel-a", "variant": "both", "ntrain": 100, "seed": 0, "steps": 2000, "mae": 0.138, "rmse": 0.1878, "ssim": 0.6873, "seconds": 94}
+{"train": "flatvel-a", "test": "flatvel-a", "variant": "raw", "ntrain": 100, "seed": 0, "steps": 2000, "mae": 0.2302, "rmse": 0.3039, "ssim": 0.4039, "seconds": 93}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "raw", "ntrain": 100, "seed": 0, "steps": 2000, "mae": 0.2721, "rmse": 0.3694, "ssim": 0.429, "seconds": 92}
+{"train": "flatvel-a", "test": "flatvel-a", "variant": "phys", "ntrain": 25, "seed": 0, "steps": 2000, "mae": 0.1074, "rmse": 0.1601, "ssim": 0.7366, "seconds": 89}
+{"train": "flatvel-a", "test": "flatvel-a", "variant": "both", "ntrain": 25, "seed": 0, "steps": 2000, "mae": 0.1508, "rmse": 0.2159, "ssim": 0.621, "seconds": 93}
+{"train": "flatvel-a", "test": "flatvel-a", "variant": "raw", "ntrain": 25, "seed": 0, "steps": 2000, "mae": 0.2958, "rmse": 0.378, "ssim": 0.2977, "seconds": 92}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "raw", "ntrain": 25, "seed": 0, "steps": 2000, "mae": 0.3876, "rmse": 0.504, "ssim": 0.337, "seconds": 92}
+{"train": "flatvel-a", "test": "flatvel-a", "variant": "phys", "ntrain": 452, "seed": 1, "steps": 2000, "mae": 0.0511, "rmse": 0.0825, "ssim": 0.8721, "seconds": 90}
+{"train": "flatvel-a", "test": "flatvel-a", "variant": "both", "ntrain": 452, "seed": 1, "steps": 2000, "mae": 0.0663, "rmse": 0.0964, "ssim": 0.8649, "seconds": 95}
+{"train": "flatvel-a", "test": "flatvel-a", "variant": "raw", "ntrain": 452, "seed": 1, "steps": 2000, "mae": 0.1065, "rmse": 0.1516, "ssim": 0.6723, "seconds": 93}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "raw", "ntrain": 452, "seed": 1, "steps": 2000, "mae": 0.1118, "rmse": 0.1954, "ssim": 0.732, "seconds": 93}
+{"train": "flatvel-a", "test": "flatvel-a", "variant": "phys", "ntrain": 100, "seed": 1, "steps": 2000, "mae": 0.0649, "rmse": 0.1061, "ssim": 0.8263, "seconds": 90}
+{"train": "flatvel-a", "test": "flatvel-a", "variant": "both", "ntrain": 100, "seed": 1, "steps": 2000, "mae": 0.1378, "rmse": 0.1837, "ssim": 0.6787, "seconds": 94}
+{"train": "flatvel-a", "test": "flatvel-a", "variant": "raw", "ntrain": 100, "seed": 1, "steps": 2000, "mae": 0.2364, "rmse": 0.3183, "ssim": 0.4274, "seconds": 93}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "raw", "ntrain": 100, "seed": 1, "steps": 2000, "mae": 0.2937, "rmse": 0.4094, "ssim": 0.4701, "seconds": 93}
+{"train": "flatvel-a", "test": "flatvel-a", "variant": "phys", "ntrain": 25, "seed": 1, "steps": 2000, "mae": 0.0836, "rmse": 0.1239, "ssim": 0.7594, "seconds": 90}
+{"train": "flatvel-a", "test": "flatvel-a", "variant": "both", "ntrain": 25, "seed": 1, "steps": 2000, "mae": 0.1236, "rmse": 0.1765, "ssim": 0.6655, "seconds": 94}
+{"train": "flatvel-a", "test": "flatvel-a", "variant": "raw", "ntrain": 25, "seed": 1, "steps": 2000, "mae": 0.2645, "rmse": 0.3409, "ssim": 0.323, "seconds": 92}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "raw", "ntrain": 25, "seed": 1, "steps": 2000, "mae": 0.3266, "rmse": 0.4217, "ssim": 0.3706, "seconds": 92}
+{"train": "flatvel-a", "test": "flatfault-a", "variant": "phys", "ntrain": 452, "seed": 0, "steps": 2000, "mae": 0.2206, "rmse": 0.3019, "ssim": 0.5336, "seconds": 90}
+{"train": "flatvel-a", "test": "flatfault-a", "variant": "both", "ntrain": 452, "seed": 0, "steps": 2000, "mae": 0.1801, "rmse": 0.2561, "ssim": 0.5861, "seconds": 95}
+{"train": "flatvel-a", "test": "flatfault-a", "variant": "raw", "ntrain": 452, "seed": 0, "steps": 2000, "mae": 0.1983, "rmse": 0.2848, "ssim": 0.4987, "seconds": 94}
+{"train": "flatfault-a", "test": "flatvel-a", "variant": "raw", "ntrain": 452, "seed": 0, "steps": 2000, "mae": 0.2236, "rmse": 0.3013, "ssim": 0.4757, "seconds": 94}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "phys", "ntrain": 452, "seed": 0, "steps": 2000, "mae": 0.1532, "rmse": 0.2145, "ssim": 0.7058, "seconds": 90}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "both", "ntrain": 452, "seed": 0, "steps": 2000, "mae": 0.1099, "rmse": 0.1642, "ssim": 0.7538, "seconds": 100}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "phys", "ntrain": 100, "seed": 0, "steps": 2000, "mae": 0.1727, "rmse": 0.2443, "ssim": 0.5902, "seconds": 99}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "both", "ntrain": 100, "seed": 0, "steps": 2000, "mae": 0.2114, "rmse": 0.2778, "ssim": 0.5696, "seconds": 94}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "phys", "ntrain": 25, "seed": 0, "steps": 2000, "mae": 0.1898, "rmse": 0.2746, "ssim": 0.6129, "seconds": 89}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "both", "ntrain": 25, "seed": 0, "steps": 2000, "mae": 0.2725, "rmse": 0.3487, "ssim": 0.461, "seconds": 94}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "phys", "ntrain": 452, "seed": 1, "steps": 2000, "mae": 0.1551, "rmse": 0.217, "ssim": 0.6954, "seconds": 90}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "both", "ntrain": 452, "seed": 1, "steps": 2000, "mae": 0.113, "rmse": 0.1657, "ssim": 0.755, "seconds": 94}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "phys", "ntrain": 100, "seed": 1, "steps": 2000, "mae": 0.1653, "rmse": 0.2319, "ssim": 0.6179, "seconds": 90}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "both", "ntrain": 100, "seed": 1, "steps": 2000, "mae": 0.2157, "rmse": 0.2854, "ssim": 0.5989, "seconds": 94}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "phys", "ntrain": 25, "seed": 1, "steps": 2000, "mae": 0.1484, "rmse": 0.219, "ssim": 0.6235, "seconds": 89}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "both", "ntrain": 25, "seed": 1, "steps": 2000, "mae": 0.2022, "rmse": 0.2867, "ssim": 0.5697, "seconds": 94}
+{"train": "flatfault-a", "test": "flatvel-a", "variant": "phys", "ntrain": 452, "seed": 0, "steps": 2000, "mae": 0.1507, "rmse": 0.1929, "ssim": 0.5778, "seconds": 90}
+{"train": "flatfault-a", "test": "flatvel-a", "variant": "both", "ntrain": 452, "seed": 0, "steps": 2000, "mae": 0.171, "rmse": 0.2447, "ssim": 0.5707, "seconds": 95}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "refr", "ntrain": 0, "ntest": 48, "seed": 0, "steps": 2000, "mae": 0.2932, "rmse": 0.4154, "ssim": 0.423, "seconds": 0}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "physR", "ntrain": 452, "ntest": 48, "seed": 0, "steps": 2000, "mae": 0.1115, "rmse": 0.1778, "ssim": 0.7515, "seconds": 97}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "bothR", "ntrain": 452, "ntest": 48, "seed": 0, "steps": 2000, "mae": 0.0787, "rmse": 0.1293, "ssim": 0.8205, "seconds": 101}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "physR", "ntrain": 100, "ntest": 48, "seed": 0, "steps": 2000, "mae": 0.135, "rmse": 0.2075, "ssim": 0.6997, "seconds": 96}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "bothR", "ntrain": 100, "ntest": 48, "seed": 0, "steps": 2000, "mae": 0.1472, "rmse": 0.2101, "ssim": 0.6894, "seconds": 100}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "physR", "ntrain": 25, "ntest": 48, "seed": 0, "steps": 2000, "mae": 0.1543, "rmse": 0.2333, "ssim": 0.7031, "seconds": 96}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "bothR", "ntrain": 25, "ntest": 48, "seed": 0, "steps": 2000, "mae": 0.2284, "rmse": 0.2985, "ssim": 0.522, "seconds": 100}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "physR", "ntrain": 452, "ntest": 48, "seed": 1, "steps": 2000, "mae": 0.1194, "rmse": 0.1877, "ssim": 0.7451, "seconds": 97}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "bothR", "ntrain": 452, "ntest": 48, "seed": 1, "steps": 2000, "mae": 0.0768, "rmse": 0.1277, "ssim": 0.8307, "seconds": 101}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "physR", "ntrain": 100, "ntest": 48, "seed": 1, "steps": 2000, "mae": 0.139, "rmse": 0.2127, "ssim": 0.7096, "seconds": 97}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "bothR", "ntrain": 100, "ntest": 48, "seed": 1, "steps": 2000, "mae": 0.1637, "rmse": 0.2289, "ssim": 0.6755, "seconds": 100}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "physR", "ntrain": 25, "ntest": 48, "seed": 1, "steps": 2000, "mae": 0.1469, "rmse": 0.2252, "ssim": 0.687, "seconds": 96}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "bothR", "ntrain": 25, "ntest": 48, "seed": 1, "steps": 2000, "mae": 0.182, "rmse": 0.2615, "ssim": 0.5855, "seconds": 100}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "physL", "ntrain": 452, "ntest": 48, "seed": 0, "steps": 2000, "mae": 0.1147, "rmse": 0.1819, "ssim": 0.7486, "seconds": 96}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "physP", "ntrain": 452, "ntest": 48, "seed": 0, "steps": 2000, "mae": 0.1533, "rmse": 0.2155, "ssim": 0.695, "seconds": 96}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "physL", "ntrain": 100, "ntest": 48, "seed": 0, "steps": 2000, "mae": 0.1365, "rmse": 0.2098, "ssim": 0.6938, "seconds": 95}
+{"train": "flatfault-a", "test": "flatfault-a", "variant": "physP", "ntrain": 100, "ntest": 48, "seed": 0, "steps": 2000, "mae": 0.1697, "rmse": 0.2382, "ssim": 0.586, "seconds": 95}
+{"train": "flatfault-a", "test": "flatvel-a", "variant": "physR", "ntrain": 452, "ntest": 48, "seed": 0, "steps": 2000, "mae": 0.1297, "rmse": 0.1824, "ssim": 0.5637, "seconds": 97}
+{"train": "flatfault-a", "test": "flatvel-a", "variant": "bothR", "ntrain": 452, "ntest": 48, "seed": 0, "steps": 2000, "mae": 0.2498, "rmse": 0.3186, "ssim": 0.4575, "seconds": 101}

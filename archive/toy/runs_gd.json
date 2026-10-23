@@ -1,0 +1,33 @@
+{
+ "pixel_T4": {
+  "lr": 0.01,
+  "err_ratio": 1.0029807090759277,
+  "err_ratio_ellipse": 0.9995704293251038,
+  "err_ratio_fault": 1.005026936531067,
+  "misfit_ratio": 0.5534504652023315
+ },
+ "pixel_T30": {
+  "lr": 0.003,
+  "err_ratio": 1.011114478111267,
+  "err_ratio_ellipse": 1.0016813278198242,
+  "err_ratio_fault": 1.016774296760559,
+  "misfit_ratio": 0.3037470579147339
+ },
+ "gauss_T4": {
+  "lr": 0.03,
+  "err_ratio": 0.8833721280097961,
+  "err_ratio_ellipse": 0.8806255459785461,
+  "err_ratio_fault": 0.8850200176239014,
+  "misfit_ratio": 0.17886339128017426
+ },
+ "gauss_T30": {
+  "lr": 0.03,
+  "err_ratio": 0.8086126446723938,
+  "err_ratio_ellipse": 0.8076138496398926,
+  "err_ratio_fault": 0.8092118501663208,
+  "misfit_ratio": 0.01431538537144661
+ },
+ "dataset_mean": {
+  "err_ratio": 0.9183899760246277
+ }
+}

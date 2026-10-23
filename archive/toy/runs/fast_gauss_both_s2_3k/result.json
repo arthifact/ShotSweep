@@ -1,0 +1,33 @@
+{
+ "args": {
+  "input": "both",
+  "state": "gauss",
+  "stages": 2,
+  "steps": 3000,
+  "ntrain": 1000,
+  "bs": 16,
+  "lr": 0.002,
+  "threads": 2,
+  "name": "gauss_both_s2_3k",
+  "nolive": true
+ },
+ "stages": [
+  {
+   "stage": 0,
+   "test_err_ratio": 0.5130097270011902,
+   "ellipse": 0.5927098393440247,
+   "fault": 0.4651896357536316,
+   "misfit_ratio": 0.30485376715660095,
+   "train_s": 245.53718876838684
+  },
+  {
+   "stage": 1,
+   "test_err_ratio": 0.5016687512397766,
+   "ellipse": 0.5812230110168457,
+   "fault": 0.45393621921539307,
+   "misfit_ratio": 0.8780872225761414,
+   "train_s": 228.88119292259216
+  }
+ ],
+ "total_s": 510.2300636768341
+}

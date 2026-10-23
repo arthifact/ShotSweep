@@ -1,0 +1,81 @@
+{
+ "summary": {
+  "n": 1,
+  "top_knot_abs_relerr_start_mean": 0.163,
+  "top_knot_abs_relerr_recovered_mean": 0.1587,
+  "top_knot_abs_relerr_recovered_median": 0.152,
+  "models_improved": 1,
+  "lateral_trend_true_mean": 0.222,
+  "lateral_trend_recovered_mean": 0.0,
+  "trend_sign_correct": 0,
+  "rms_overburden_abs_relerr_start_mean": 0.1569,
+  "rms_overburden_abs_relerr_recovered_mean": 0.1509,
+  "sweep_argmin_at_1": 0,
+  "seconds_total": 36
+ },
+ "rows": [
+  {
+   "model": 480,
+   "v1": 2275,
+   "n_obs": 4109,
+   "iterations": 1,
+   "sweep_argmin": 0.85,
+   "sweep": {
+    "0.85": 0.724,
+    "0.92": 0.805,
+    "1.0": 0.904,
+    "1.08": 0.948,
+    "1.15": 0.965
+   },
+   "top_true": [
+    1950.0,
+    2164.0,
+    2384.0
+   ],
+   "top_start": [
+    2502.0,
+    2502.0,
+    2502.0
+   ],
+   "top_recovered": [
+    2493.0,
+    2493.0,
+    2494.0
+   ],
+   "top_relerr_start": [
+    0.283,
+    0.156,
+    0.05
+   ],
+   "top_relerr_recovered": [
+    0.278,
+    0.152,
+    0.046
+   ],
+   "lateral_trend_true": 0.222,
+   "lateral_trend_recovered": 0.0,
+   "rms": {
+    "100": {
+     "z_interface": 70.0,
+     "true": 2013,
+     "start": 2502,
+     "recovered": 2491
+    },
+    "350": {
+     "z_interface": 230.0,
+     "true": 2170,
+     "start": 2502,
+     "recovered": 2485
+    },
+    "600": {
+     "z_interface": 240.0,
+     "true": 2328,
+     "start": 2502,
+     "recovered": 2491
+    }
+   },
+   "critical_angle": 43,
+   "seconds": 36
+  }
+ ]
+}

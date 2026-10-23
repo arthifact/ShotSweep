@@ -1,0 +1,2076 @@
+{
+ "family": "flatfault-a",
+ "model": 0,
+ "init": "homogeneous",
+ "floor": 0.0318,
+ "n_obs": 3221,
+ "init_mse_over_mean": 1.7764,
+ "dataset_mean_mse": 466298,
+ "final_mse_over_mean": 2.3411,
+ "history": [
+  {
+   "iter": 0,
+   "consistency": 0.5719,
+   "points": 1768,
+   "overlap": 0.4281
+  },
+  {
+   "iter": 1,
+   "consistency": 0.5527,
+   "points": 1734,
+   "overlap": 0.4473
+  },
+  {
+   "iter": 2,
+   "consistency": 0.5594,
+   "points": 1734,
+   "overlap": 0.4406
+  },
+  {
+   "iter": 3,
+   "consistency": 0.5597,
+   "points": 1724,
+   "overlap": 0.4403
+  },
+  {
+   "iter": 4,
+   "consistency": 0.5718,
+   "points": 1733,
+   "overlap": 0.4282
+  },
+  {
+   "iter": 5,
+   "consistency": 0.5718,
+   "points": 1716,
+   "overlap": 0.4282
+  },
+  {
+   "iter": 6,
+   "consistency": 0.5795,
+   "points": 1743,
+   "overlap": 0.4205
+  },
+  {
+   "iter": 7,
+   "consistency": 0.5826,
+   "points": 1718,
+   "overlap": 0.4174
+  },
+  {
+   "iter": 8,
+   "consistency": 0.5774,
+   "points": 1746,
+   "overlap": 0.4226
+  },
+  {
+   "iter": 9,
+   "consistency": 0.579,
+   "points": 1715,
+   "overlap": 0.421
+  },
+  {
+   "iter": 10,
+   "consistency": 0.5676,
+   "points": 1736,
+   "overlap": 0.4324
+  },
+  {
+   "iter": 11,
+   "consistency": 0.5735,
+   "points": 1761,
+   "overlap": 0.4265
+  },
+  {
+   "iter": 12,
+   "consistency": 0.5722,
+   "points": 1761,
+   "overlap": 0.4278
+  },
+  {
+   "iter": 13,
+   "consistency": 0.5592,
+   "points": 1760,
+   "overlap": 0.4408
+  },
+  {
+   "iter": 14,
+   "consistency": 0.5552,
+   "points": 1740,
+   "overlap": 0.4448
+  },
+  {
+   "iter": 15,
+   "consistency": 0.5531,
+   "points": 1766,
+   "overlap": 0.4469
+  },
+  {
+   "iter": 16,
+   "consistency": 0.5487,
+   "points": 1759,
+   "overlap": 0.4513
+  },
+  {
+   "iter": 17,
+   "consistency": 0.5408,
+   "points": 1778,
+   "overlap": 0.4592
+  },
+  {
+   "iter": 18,
+   "consistency": 0.5424,
+   "points": 1735,
+   "overlap": 0.4576
+  },
+  {
+   "iter": 19,
+   "consistency": 0.5376,
+   "points": 1727,
+   "overlap": 0.4624
+  },
+  {
+   "iter": 20,
+   "consistency": 0.5186,
+   "points": 1689,
+   "overlap": 0.4814
+  },
+  {
+   "iter": 21,
+   "consistency": 0.5279,
+   "points": 1704,
+   "overlap": 0.4721
+  },
+  {
+   "iter": 22,
+   "consistency": 0.5598,
+   "points": 1747,
+   "overlap": 0.4402
+  },
+  {
+   "iter": 23,
+   "consistency": 0.5326,
+   "points": 1754,
+   "overlap": 0.4674
+  },
+  {
+   "iter": 24,
+   "consistency": 0.5232,
+   "points": 1733,
+   "overlap": 0.4768
+  },
+  {
+   "iter": 25,
+   "consistency": 0.5533,
+   "points": 1736,
+   "overlap": 0.4467
+  },
+  {
+   "iter": 26,
+   "consistency": 0.547,
+   "points": 1745,
+   "overlap": 0.453
+  },
+  {
+   "iter": 27,
+   "consistency": 0.5278,
+   "points": 1752,
+   "overlap": 0.4722
+  },
+  {
+   "iter": 28,
+   "consistency": 0.5233,
+   "points": 1711,
+   "overlap": 0.4767
+  },
+  {
+   "iter": 29,
+   "consistency": 0.5018,
+   "points": 1729,
+   "overlap": 0.4982
+  },
+  {
+   "iter": 30,
+   "consistency": 0.4856,
+   "points": 1730,
+   "overlap": 0.5144
+  },
+  {
+   "iter": 31,
+   "consistency": 0.527,
+   "points": 1733,
+   "overlap": 0.473
+  },
+  {
+   "iter": 32,
+   "consistency": 0.5092,
+   "points": 1688,
+   "overlap": 0.4908
+  },
+  {
+   "iter": 33,
+   "consistency": 0.4925,
+   "points": 1734,
+   "overlap": 0.5075
+  },
+  {
+   "iter": 34,
+   "consistency": 0.5236,
+   "points": 1684,
+   "overlap": 0.4764
+  },
+  {
+   "iter": 35,
+   "consistency": 0.5009,
+   "points": 1719,
+   "overlap": 0.4991
+  },
+  {
+   "iter": 36,
+   "consistency": 0.4909,
+   "points": 1670,
+   "overlap": 0.5091
+  },
+  {
+   "iter": 37,
+   "consistency": 0.4922,
+   "points": 1662,
+   "overlap": 0.5078
+  },
+  {
+   "iter": 38,
+   "consistency": 0.4922,
+   "points": 1719,
+   "overlap": 0.5078
+  },
+  {
+   "iter": 39,
+   "consistency": 0.4834,
+   "points": 1660,
+   "overlap": 0.5166
+  },
+  {
+   "iter": 40,
+   "consistency": 0.4803,
+   "points": 1631,
+   "overlap": 0.5197
+  },
+  {
+   "iter": 41,
+   "consistency": 0.4741,
+   "points": 1664,
+   "overlap": 0.5259
+  },
+  {
+   "iter": 42,
+   "consistency": 0.4625,
+   "points": 1637,
+   "overlap": 0.5375
+  },
+  {
+   "iter": 43,
+   "consistency": 0.4814,
+   "points": 1708,
+   "overlap": 0.5186
+  },
+  {
+   "iter": 44,
+   "consistency": 0.4497,
+   "points": 1686,
+   "overlap": 0.5503
+  },
+  {
+   "iter": 45,
+   "consistency": 0.4284,
+   "points": 1695,
+   "overlap": 0.5716
+  },
+  {
+   "iter": 46,
+   "consistency": 0.4348,
+   "points": 1651,
+   "overlap": 0.5652
+  },
+  {
+   "iter": 47,
+   "consistency": 0.4347,
+   "points": 1676,
+   "overlap": 0.5653
+  },
+  {
+   "iter": 48,
+   "consistency": 0.4278,
+   "points": 1694,
+   "overlap": 0.5722
+  },
+  {
+   "iter": 49,
+   "consistency": 0.4297,
+   "points": 1683,
+   "overlap": 0.5703
+  },
+  {
+   "iter": 50,
+   "consistency": 0.4341,
+   "points": 1634,
+   "overlap": 0.5659
+  },
+  {
+   "iter": 51,
+   "consistency": 0.443,
+   "points": 1629,
+   "overlap": 0.557
+  },
+  {
+   "iter": 52,
+   "consistency": 0.4472,
+   "points": 1668,
+   "overlap": 0.5528
+  },
+  {
+   "iter": 53,
+   "consistency": 0.4675,
+   "points": 1607,
+   "overlap": 0.5325
+  },
+  {
+   "iter": 54,
+   "consistency": 0.461,
+   "points": 1675,
+   "overlap": 0.539
+  },
+  {
+   "iter": 55,
+   "consistency": 0.4289,
+   "points": 1608,
+   "overlap": 0.5711
+  },
+  {
+   "iter": 56,
+   "consistency": 0.4385,
+   "points": 1612,
+   "overlap": 0.5615
+  },
+  {
+   "iter": 57,
+   "consistency": 0.4394,
+   "points": 1654,
+   "overlap": 0.5606
+  },
+  {
+   "iter": 58,
+   "consistency": 0.4321,
+   "points": 1676,
+   "overlap": 0.5679
+  },
+  {
+   "iter": 59,
+   "consistency": 0.4295,
+   "points": 1703,
+   "overlap": 0.5705
+  },
+  {
+   "iter": 60,
+   "consistency": 0.4434,
+   "points": 1621,
+   "overlap": 0.5566
+  },
+  {
+   "iter": 61,
+   "consistency": 0.4364,
+   "points": 1637,
+   "overlap": 0.5636
+  },
+  {
+   "iter": 62,
+   "consistency": 0.4372,
+   "points": 1655,
+   "overlap": 0.5628
+  },
+  {
+   "iter": 63,
+   "consistency": 0.4447,
+   "points": 1706,
+   "overlap": 0.5553
+  },
+  {
+   "iter": 64,
+   "consistency": 0.4309,
+   "points": 1640,
+   "overlap": 0.5691
+  },
+  {
+   "iter": 65,
+   "consistency": 0.4804,
+   "points": 1656,
+   "overlap": 0.5196
+  },
+  {
+   "iter": 66,
+   "consistency": 0.4291,
+   "points": 1673,
+   "overlap": 0.5709
+  },
+  {
+   "iter": 67,
+   "consistency": 0.4399,
+   "points": 1712,
+   "overlap": 0.5601
+  },
+  {
+   "iter": 68,
+   "consistency": 0.4389,
+   "points": 1637,
+   "overlap": 0.5611
+  },
+  {
+   "iter": 69,
+   "consistency": 0.4258,
+   "points": 1691,
+   "overlap": 0.5742
+  },
+  {
+   "iter": 70,
+   "consistency": 0.4466,
+   "points": 1648,
+   "overlap": 0.5534
+  },
+  {
+   "iter": 71,
+   "consistency": 0.4241,
+   "points": 1678,
+   "overlap": 0.5759
+  },
+  {
+   "iter": 72,
+   "consistency": 0.4237,
+   "points": 1697,
+   "overlap": 0.5763
+  },
+  {
+   "iter": 73,
+   "consistency": 0.4268,
+   "points": 1665,
+   "overlap": 0.5732
+  },
+  {
+   "iter": 74,
+   "consistency": 0.4328,
+   "points": 1688,
+   "overlap": 0.5672
+  },
+  {
+   "iter": 75,
+   "consistency": 0.4316,
+   "points": 1671,
+   "overlap": 0.5684
+  },
+  {
+   "iter": 76,
+   "consistency": 0.4295,
+   "points": 1693,
+   "overlap": 0.5705
+  },
+  {
+   "iter": 77,
+   "consistency": 0.4316,
+   "points": 1672,
+   "overlap": 0.5684
+  },
+  {
+   "iter": 78,
+   "consistency": 0.4261,
+   "points": 1658,
+   "overlap": 0.5739
+  },
+  {
+   "iter": 79,
+   "consistency": 0.4485,
+   "points": 1690,
+   "overlap": 0.5515
+  },
+  {
+   "iter": 80,
+   "consistency": 0.4376,
+   "points": 1659,
+   "overlap": 0.5624
+  },
+  {
+   "iter": 81,
+   "consistency": 0.4333,
+   "points": 1675,
+   "overlap": 0.5667
+  },
+  {
+   "iter": 82,
+   "consistency": 0.4302,
+   "points": 1709,
+   "overlap": 0.5698
+  },
+  {
+   "iter": 83,
+   "consistency": 0.4342,
+   "points": 1712,
+   "overlap": 0.5658
+  },
+  {
+   "iter": 84,
+   "consistency": 0.4252,
+   "points": 1666,
+   "overlap": 0.5748
+  },
+  {
+   "iter": 85,
+   "consistency": 0.4321,
+   "points": 1698,
+   "overlap": 0.5679
+  },
+  {
+   "iter": 86,
+   "consistency": 0.4262,
+   "points": 1661,
+   "overlap": 0.5738
+  },
+  {
+   "iter": 87,
+   "consistency": 0.4324,
+   "points": 1659,
+   "overlap": 0.5676
+  },
+  {
+   "iter": 88,
+   "consistency": 0.4283,
+   "points": 1693,
+   "overlap": 0.5717
+  },
+  {
+   "iter": 89,
+   "consistency": 0.4204,
+   "points": 1697,
+   "overlap": 0.5796
+  },
+  {
+   "iter": 90,
+   "consistency": 0.4281,
+   "points": 1706,
+   "overlap": 0.5719
+  },
+  {
+   "iter": 91,
+   "consistency": 0.427,
+   "points": 1702,
+   "overlap": 0.573
+  },
+  {
+   "iter": 92,
+   "consistency": 0.4511,
+   "points": 1665,
+   "overlap": 0.5489
+  },
+  {
+   "iter": 93,
+   "consistency": 0.4239,
+   "points": 1697,
+   "overlap": 0.5761
+  },
+  {
+   "iter": 94,
+   "consistency": 0.4216,
+   "points": 1663,
+   "overlap": 0.5784
+  },
+  {
+   "iter": 95,
+   "consistency": 0.4195,
+   "points": 1677,
+   "overlap": 0.5805
+  },
+  {
+   "iter": 96,
+   "consistency": 0.4256,
+   "points": 1660,
+   "overlap": 0.5744
+  },
+  {
+   "iter": 97,
+   "consistency": 0.4212,
+   "points": 1672,
+   "overlap": 0.5788
+  },
+  {
+   "iter": 98,
+   "consistency": 0.4224,
+   "points": 1658,
+   "overlap": 0.5776
+  },
+  {
+   "iter": 99,
+   "consistency": 0.4177,
+   "points": 1692,
+   "overlap": 0.5823
+  },
+  {
+   "iter": 100,
+   "consistency": 0.4176,
+   "points": 1687,
+   "overlap": 0.5824
+  },
+  {
+   "iter": 101,
+   "consistency": 0.4258,
+   "points": 1681,
+   "overlap": 0.5742
+  },
+  {
+   "iter": 102,
+   "consistency": 0.418,
+   "points": 1678,
+   "overlap": 0.582
+  },
+  {
+   "iter": 103,
+   "consistency": 0.4228,
+   "points": 1691,
+   "overlap": 0.5772
+  },
+  {
+   "iter": 104,
+   "consistency": 0.4254,
+   "points": 1663,
+   "overlap": 0.5746
+  },
+  {
+   "iter": 105,
+   "consistency": 0.4189,
+   "points": 1689,
+   "overlap": 0.5811
+  },
+  {
+   "iter": 106,
+   "consistency": 0.4208,
+   "points": 1691,
+   "overlap": 0.5792
+  },
+  {
+   "iter": 107,
+   "consistency": 0.4298,
+   "points": 1702,
+   "overlap": 0.5702
+  },
+  {
+   "iter": 108,
+   "consistency": 0.4174,
+   "points": 1682,
+   "overlap": 0.5826
+  },
+  {
+   "iter": 109,
+   "consistency": 0.4217,
+   "points": 1671,
+   "overlap": 0.5783
+  },
+  {
+   "iter": 110,
+   "consistency": 0.4231,
+   "points": 1672,
+   "overlap": 0.5769
+  },
+  {
+   "iter": 111,
+   "consistency": 0.4241,
+   "points": 1692,
+   "overlap": 0.5759
+  },
+  {
+   "iter": 112,
+   "consistency": 0.4187,
+   "points": 1691,
+   "overlap": 0.5813
+  },
+  {
+   "iter": 113,
+   "consistency": 0.4168,
+   "points": 1683,
+   "overlap": 0.5832
+  },
+  {
+   "iter": 114,
+   "consistency": 0.418,
+   "points": 1689,
+   "overlap": 0.582
+  },
+  {
+   "iter": 115,
+   "consistency": 0.4178,
+   "points": 1685,
+   "overlap": 0.5822
+  },
+  {
+   "iter": 116,
+   "consistency": 0.418,
+   "points": 1692,
+   "overlap": 0.582
+  },
+  {
+   "iter": 117,
+   "consistency": 0.4198,
+   "points": 1693,
+   "overlap": 0.5802
+  },
+  {
+   "iter": 118,
+   "consistency": 0.4234,
+   "points": 1680,
+   "overlap": 0.5766
+  },
+  {
+   "iter": 119,
+   "consistency": 0.4186,
+   "points": 1674,
+   "overlap": 0.5814
+  },
+  {
+   "iter": 120,
+   "consistency": 0.4164,
+   "points": 1678,
+   "overlap": 0.5836
+  },
+  {
+   "iter": 121,
+   "consistency": 0.4196,
+   "points": 1675,
+   "overlap": 0.5804
+  },
+  {
+   "iter": 122,
+   "consistency": 0.4209,
+   "points": 1687,
+   "overlap": 0.5791
+  },
+  {
+   "iter": 123,
+   "consistency": 0.4219,
+   "points": 1691,
+   "overlap": 0.5781
+  },
+  {
+   "iter": 124,
+   "consistency": 0.4147,
+   "points": 1685,
+   "overlap": 0.5853
+  },
+  {
+   "iter": 125,
+   "consistency": 0.4182,
+   "points": 1679,
+   "overlap": 0.5818
+  },
+  {
+   "iter": 126,
+   "consistency": 0.4155,
+   "points": 1680,
+   "overlap": 0.5845
+  },
+  {
+   "iter": 127,
+   "consistency": 0.4196,
+   "points": 1683,
+   "overlap": 0.5804
+  },
+  {
+   "iter": 128,
+   "consistency": 0.4176,
+   "points": 1680,
+   "overlap": 0.5824
+  },
+  {
+   "iter": 129,
+   "consistency": 0.4183,
+   "points": 1696,
+   "overlap": 0.5817
+  },
+  {
+   "iter": 130,
+   "consistency": 0.4177,
+   "points": 1686,
+   "overlap": 0.5823
+  },
+  {
+   "iter": 131,
+   "consistency": 0.4185,
+   "points": 1681,
+   "overlap": 0.5815
+  },
+  {
+   "iter": 132,
+   "consistency": 0.4172,
+   "points": 1695,
+   "overlap": 0.5828
+  },
+  {
+   "iter": 133,
+   "consistency": 0.4185,
+   "points": 1694,
+   "overlap": 0.5815
+  },
+  {
+   "iter": 134,
+   "consistency": 0.417,
+   "points": 1681,
+   "overlap": 0.583
+  },
+  {
+   "iter": 135,
+   "consistency": 0.419,
+   "points": 1673,
+   "overlap": 0.581
+  },
+  {
+   "iter": 136,
+   "consistency": 0.4176,
+   "points": 1694,
+   "overlap": 0.5824
+  },
+  {
+   "iter": 137,
+   "consistency": 0.4182,
+   "points": 1679,
+   "overlap": 0.5818
+  },
+  {
+   "iter": 138,
+   "consistency": 0.4168,
+   "points": 1689,
+   "overlap": 0.5832
+  },
+  {
+   "iter": 139,
+   "consistency": 0.4227,
+   "points": 1670,
+   "overlap": 0.5773
+  },
+  {
+   "iter": 140,
+   "consistency": 0.4163,
+   "points": 1690,
+   "overlap": 0.5837
+  },
+  {
+   "iter": 141,
+   "consistency": 0.421,
+   "points": 1690,
+   "overlap": 0.579
+  },
+  {
+   "iter": 142,
+   "consistency": 0.416,
+   "points": 1686,
+   "overlap": 0.584
+  },
+  {
+   "iter": 143,
+   "consistency": 0.4193,
+   "points": 1684,
+   "overlap": 0.5807
+  },
+  {
+   "iter": 144,
+   "consistency": 0.4229,
+   "points": 1689,
+   "overlap": 0.5771
+  },
+  {
+   "iter": 145,
+   "consistency": 0.4142,
+   "points": 1682,
+   "overlap": 0.5858
+  },
+  {
+   "iter": 146,
+   "consistency": 0.4133,
+   "points": 1685,
+   "overlap": 0.5867
+  },
+  {
+   "iter": 147,
+   "consistency": 0.4136,
+   "points": 1690,
+   "overlap": 0.5864
+  },
+  {
+   "iter": 148,
+   "consistency": 0.42,
+   "points": 1682,
+   "overlap": 0.58
+  },
+  {
+   "iter": 149,
+   "consistency": 0.4166,
+   "points": 1685,
+   "overlap": 0.5834
+  },
+  {
+   "iter": 150,
+   "consistency": 0.4162,
+   "points": 1691,
+   "overlap": 0.5838
+  },
+  {
+   "iter": 151,
+   "consistency": 0.4147,
+   "points": 1689,
+   "overlap": 0.5853
+  },
+  {
+   "iter": 152,
+   "consistency": 0.4146,
+   "points": 1690,
+   "overlap": 0.5854
+  },
+  {
+   "iter": 153,
+   "consistency": 0.4155,
+   "points": 1688,
+   "overlap": 0.5845
+  },
+  {
+   "iter": 154,
+   "consistency": 0.4166,
+   "points": 1684,
+   "overlap": 0.5834
+  },
+  {
+   "iter": 155,
+   "consistency": 0.4153,
+   "points": 1690,
+   "overlap": 0.5847
+  },
+  {
+   "iter": 156,
+   "consistency": 0.4195,
+   "points": 1690,
+   "overlap": 0.5805
+  },
+  {
+   "iter": 157,
+   "consistency": 0.418,
+   "points": 1693,
+   "overlap": 0.582
+  },
+  {
+   "iter": 158,
+   "consistency": 0.4164,
+   "points": 1689,
+   "overlap": 0.5836
+  },
+  {
+   "iter": 159,
+   "consistency": 0.4202,
+   "points": 1682,
+   "overlap": 0.5798
+  },
+  {
+   "iter": 160,
+   "consistency": 0.4159,
+   "points": 1692,
+   "overlap": 0.5841
+  },
+  {
+   "iter": 161,
+   "consistency": 0.4146,
+   "points": 1692,
+   "overlap": 0.5854
+  },
+  {
+   "iter": 162,
+   "consistency": 0.4166,
+   "points": 1686,
+   "overlap": 0.5834
+  },
+  {
+   "iter": 163,
+   "consistency": 0.4142,
+   "points": 1686,
+   "overlap": 0.5858
+  },
+  {
+   "iter": 164,
+   "consistency": 0.4179,
+   "points": 1691,
+   "overlap": 0.5821
+  },
+  {
+   "iter": 165,
+   "consistency": 0.4161,
+   "points": 1690,
+   "overlap": 0.5839
+  },
+  {
+   "iter": 166,
+   "consistency": 0.414,
+   "points": 1686,
+   "overlap": 0.586
+  },
+  {
+   "iter": 167,
+   "consistency": 0.4171,
+   "points": 1692,
+   "overlap": 0.5829
+  },
+  {
+   "iter": 168,
+   "consistency": 0.4149,
+   "points": 1689,
+   "overlap": 0.5851
+  },
+  {
+   "iter": 169,
+   "consistency": 0.416,
+   "points": 1689,
+   "overlap": 0.584
+  },
+  {
+   "iter": 170,
+   "consistency": 0.4145,
+   "points": 1691,
+   "overlap": 0.5855
+  },
+  {
+   "iter": 171,
+   "consistency": 0.4128,
+   "points": 1691,
+   "overlap": 0.5872
+  },
+  {
+   "iter": 172,
+   "consistency": 0.4132,
+   "points": 1690,
+   "overlap": 0.5868
+  },
+  {
+   "iter": 173,
+   "consistency": 0.4175,
+   "points": 1688,
+   "overlap": 0.5825
+  },
+  {
+   "iter": 174,
+   "consistency": 0.4147,
+   "points": 1691,
+   "overlap": 0.5853
+  },
+  {
+   "iter": 175,
+   "consistency": 0.4151,
+   "points": 1690,
+   "overlap": 0.5849
+  },
+  {
+   "iter": 176,
+   "consistency": 0.4133,
+   "points": 1690,
+   "overlap": 0.5867
+  },
+  {
+   "iter": 177,
+   "consistency": 0.4159,
+   "points": 1691,
+   "overlap": 0.5841
+  },
+  {
+   "iter": 178,
+   "consistency": 0.4122,
+   "points": 1687,
+   "overlap": 0.5878
+  },
+  {
+   "iter": 179,
+   "consistency": 0.4128,
+   "points": 1690,
+   "overlap": 0.5872
+  },
+  {
+   "iter": 180,
+   "consistency": 0.4145,
+   "points": 1689,
+   "overlap": 0.5855
+  },
+  {
+   "iter": 181,
+   "consistency": 0.4146,
+   "points": 1685,
+   "overlap": 0.5854
+  },
+  {
+   "iter": 182,
+   "consistency": 0.4135,
+   "points": 1692,
+   "overlap": 0.5865
+  },
+  {
+   "iter": 183,
+   "consistency": 0.4151,
+   "points": 1684,
+   "overlap": 0.5849
+  },
+  {
+   "iter": 184,
+   "consistency": 0.4142,
+   "points": 1689,
+   "overlap": 0.5858
+  },
+  {
+   "iter": 185,
+   "consistency": 0.4143,
+   "points": 1689,
+   "overlap": 0.5857
+  },
+  {
+   "iter": 186,
+   "consistency": 0.4146,
+   "points": 1688,
+   "overlap": 0.5854
+  },
+  {
+   "iter": 187,
+   "consistency": 0.4138,
+   "points": 1690,
+   "overlap": 0.5862
+  },
+  {
+   "iter": 188,
+   "consistency": 0.4145,
+   "points": 1689,
+   "overlap": 0.5855
+  },
+  {
+   "iter": 189,
+   "consistency": 0.4141,
+   "points": 1690,
+   "overlap": 0.5859
+  },
+  {
+   "iter": 190,
+   "consistency": 0.4139,
+   "points": 1687,
+   "overlap": 0.5861
+  },
+  {
+   "iter": 191,
+   "consistency": 0.4147,
+   "points": 1694,
+   "overlap": 0.5853
+  },
+  {
+   "iter": 192,
+   "consistency": 0.4131,
+   "points": 1689,
+   "overlap": 0.5869
+  },
+  {
+   "iter": 193,
+   "consistency": 0.4141,
+   "points": 1692,
+   "overlap": 0.5859
+  },
+  {
+   "iter": 194,
+   "consistency": 0.4136,
+   "points": 1688,
+   "overlap": 0.5864
+  },
+  {
+   "iter": 195,
+   "consistency": 0.4151,
+   "points": 1690,
+   "overlap": 0.5849
+  },
+  {
+   "iter": 196,
+   "consistency": 0.4142,
+   "points": 1689,
+   "overlap": 0.5858
+  },
+  {
+   "iter": 197,
+   "consistency": 0.414,
+   "points": 1689,
+   "overlap": 0.586
+  },
+  {
+   "iter": 198,
+   "consistency": 0.4141,
+   "points": 1690,
+   "overlap": 0.5859
+  },
+  {
+   "iter": 199,
+   "consistency": 0.4134,
+   "points": 1688,
+   "overlap": 0.5866
+  },
+  {
+   "iter": 200,
+   "consistency": 0.4114,
+   "points": 1688,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 201,
+   "consistency": 0.4133,
+   "points": 1688,
+   "overlap": 0.5867
+  },
+  {
+   "iter": 202,
+   "consistency": 0.4141,
+   "points": 1690,
+   "overlap": 0.5859
+  },
+  {
+   "iter": 203,
+   "consistency": 0.4128,
+   "points": 1688,
+   "overlap": 0.5872
+  },
+  {
+   "iter": 204,
+   "consistency": 0.4129,
+   "points": 1690,
+   "overlap": 0.5871
+  },
+  {
+   "iter": 205,
+   "consistency": 0.4138,
+   "points": 1688,
+   "overlap": 0.5862
+  },
+  {
+   "iter": 206,
+   "consistency": 0.4123,
+   "points": 1688,
+   "overlap": 0.5877
+  },
+  {
+   "iter": 207,
+   "consistency": 0.4122,
+   "points": 1686,
+   "overlap": 0.5878
+  },
+  {
+   "iter": 208,
+   "consistency": 0.4134,
+   "points": 1688,
+   "overlap": 0.5866
+  },
+  {
+   "iter": 209,
+   "consistency": 0.4139,
+   "points": 1688,
+   "overlap": 0.5861
+  },
+  {
+   "iter": 210,
+   "consistency": 0.4129,
+   "points": 1686,
+   "overlap": 0.5871
+  },
+  {
+   "iter": 211,
+   "consistency": 0.4135,
+   "points": 1688,
+   "overlap": 0.5865
+  },
+  {
+   "iter": 212,
+   "consistency": 0.4142,
+   "points": 1689,
+   "overlap": 0.5858
+  },
+  {
+   "iter": 213,
+   "consistency": 0.413,
+   "points": 1687,
+   "overlap": 0.587
+  },
+  {
+   "iter": 214,
+   "consistency": 0.4126,
+   "points": 1687,
+   "overlap": 0.5874
+  },
+  {
+   "iter": 215,
+   "consistency": 0.4138,
+   "points": 1689,
+   "overlap": 0.5862
+  },
+  {
+   "iter": 216,
+   "consistency": 0.4135,
+   "points": 1687,
+   "overlap": 0.5865
+  },
+  {
+   "iter": 217,
+   "consistency": 0.4128,
+   "points": 1687,
+   "overlap": 0.5872
+  },
+  {
+   "iter": 218,
+   "consistency": 0.4129,
+   "points": 1688,
+   "overlap": 0.5871
+  },
+  {
+   "iter": 219,
+   "consistency": 0.4125,
+   "points": 1687,
+   "overlap": 0.5875
+  },
+  {
+   "iter": 220,
+   "consistency": 0.4121,
+   "points": 1687,
+   "overlap": 0.5879
+  },
+  {
+   "iter": 221,
+   "consistency": 0.4129,
+   "points": 1688,
+   "overlap": 0.5871
+  },
+  {
+   "iter": 222,
+   "consistency": 0.4125,
+   "points": 1688,
+   "overlap": 0.5875
+  },
+  {
+   "iter": 223,
+   "consistency": 0.4126,
+   "points": 1688,
+   "overlap": 0.5874
+  },
+  {
+   "iter": 224,
+   "consistency": 0.4124,
+   "points": 1687,
+   "overlap": 0.5876
+  },
+  {
+   "iter": 225,
+   "consistency": 0.4127,
+   "points": 1689,
+   "overlap": 0.5873
+  },
+  {
+   "iter": 226,
+   "consistency": 0.413,
+   "points": 1689,
+   "overlap": 0.587
+  },
+  {
+   "iter": 227,
+   "consistency": 0.4126,
+   "points": 1689,
+   "overlap": 0.5874
+  },
+  {
+   "iter": 228,
+   "consistency": 0.4134,
+   "points": 1687,
+   "overlap": 0.5866
+  },
+  {
+   "iter": 229,
+   "consistency": 0.4129,
+   "points": 1688,
+   "overlap": 0.5871
+  },
+  {
+   "iter": 230,
+   "consistency": 0.4121,
+   "points": 1689,
+   "overlap": 0.5879
+  },
+  {
+   "iter": 231,
+   "consistency": 0.4133,
+   "points": 1687,
+   "overlap": 0.5867
+  },
+  {
+   "iter": 232,
+   "consistency": 0.4118,
+   "points": 1687,
+   "overlap": 0.5882
+  },
+  {
+   "iter": 233,
+   "consistency": 0.4118,
+   "points": 1688,
+   "overlap": 0.5882
+  },
+  {
+   "iter": 234,
+   "consistency": 0.4126,
+   "points": 1687,
+   "overlap": 0.5874
+  },
+  {
+   "iter": 235,
+   "consistency": 0.4119,
+   "points": 1687,
+   "overlap": 0.5881
+  },
+  {
+   "iter": 236,
+   "consistency": 0.4125,
+   "points": 1687,
+   "overlap": 0.5875
+  },
+  {
+   "iter": 237,
+   "consistency": 0.4127,
+   "points": 1688,
+   "overlap": 0.5873
+  },
+  {
+   "iter": 238,
+   "consistency": 0.4118,
+   "points": 1687,
+   "overlap": 0.5882
+  },
+  {
+   "iter": 239,
+   "consistency": 0.4124,
+   "points": 1687,
+   "overlap": 0.5876
+  },
+  {
+   "iter": 240,
+   "consistency": 0.4124,
+   "points": 1685,
+   "overlap": 0.5876
+  },
+  {
+   "iter": 241,
+   "consistency": 0.4126,
+   "points": 1688,
+   "overlap": 0.5874
+  },
+  {
+   "iter": 242,
+   "consistency": 0.4117,
+   "points": 1687,
+   "overlap": 0.5883
+  },
+  {
+   "iter": 243,
+   "consistency": 0.4125,
+   "points": 1687,
+   "overlap": 0.5875
+  },
+  {
+   "iter": 244,
+   "consistency": 0.4123,
+   "points": 1687,
+   "overlap": 0.5877
+  },
+  {
+   "iter": 245,
+   "consistency": 0.4121,
+   "points": 1688,
+   "overlap": 0.5879
+  },
+  {
+   "iter": 246,
+   "consistency": 0.4123,
+   "points": 1688,
+   "overlap": 0.5877
+  },
+  {
+   "iter": 247,
+   "consistency": 0.4125,
+   "points": 1689,
+   "overlap": 0.5875
+  },
+  {
+   "iter": 248,
+   "consistency": 0.4114,
+   "points": 1687,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 249,
+   "consistency": 0.412,
+   "points": 1687,
+   "overlap": 0.588
+  },
+  {
+   "iter": 250,
+   "consistency": 0.4124,
+   "points": 1687,
+   "overlap": 0.5876
+  },
+  {
+   "iter": 251,
+   "consistency": 0.4122,
+   "points": 1688,
+   "overlap": 0.5878
+  },
+  {
+   "iter": 252,
+   "consistency": 0.4122,
+   "points": 1688,
+   "overlap": 0.5878
+  },
+  {
+   "iter": 253,
+   "consistency": 0.412,
+   "points": 1687,
+   "overlap": 0.588
+  },
+  {
+   "iter": 254,
+   "consistency": 0.4125,
+   "points": 1687,
+   "overlap": 0.5875
+  },
+  {
+   "iter": 255,
+   "consistency": 0.4117,
+   "points": 1688,
+   "overlap": 0.5883
+  },
+  {
+   "iter": 256,
+   "consistency": 0.4123,
+   "points": 1688,
+   "overlap": 0.5877
+  },
+  {
+   "iter": 257,
+   "consistency": 0.412,
+   "points": 1687,
+   "overlap": 0.588
+  },
+  {
+   "iter": 258,
+   "consistency": 0.412,
+   "points": 1686,
+   "overlap": 0.588
+  },
+  {
+   "iter": 259,
+   "consistency": 0.4123,
+   "points": 1688,
+   "overlap": 0.5877
+  },
+  {
+   "iter": 260,
+   "consistency": 0.4117,
+   "points": 1688,
+   "overlap": 0.5883
+  },
+  {
+   "iter": 261,
+   "consistency": 0.4119,
+   "points": 1688,
+   "overlap": 0.5881
+  },
+  {
+   "iter": 262,
+   "consistency": 0.4123,
+   "points": 1687,
+   "overlap": 0.5877
+  },
+  {
+   "iter": 263,
+   "consistency": 0.4119,
+   "points": 1687,
+   "overlap": 0.5881
+  },
+  {
+   "iter": 264,
+   "consistency": 0.4123,
+   "points": 1688,
+   "overlap": 0.5877
+  },
+  {
+   "iter": 265,
+   "consistency": 0.4116,
+   "points": 1688,
+   "overlap": 0.5884
+  },
+  {
+   "iter": 266,
+   "consistency": 0.4121,
+   "points": 1689,
+   "overlap": 0.5879
+  },
+  {
+   "iter": 267,
+   "consistency": 0.4118,
+   "points": 1687,
+   "overlap": 0.5882
+  },
+  {
+   "iter": 268,
+   "consistency": 0.412,
+   "points": 1687,
+   "overlap": 0.588
+  },
+  {
+   "iter": 269,
+   "consistency": 0.412,
+   "points": 1687,
+   "overlap": 0.588
+  },
+  {
+   "iter": 270,
+   "consistency": 0.4116,
+   "points": 1687,
+   "overlap": 0.5884
+  },
+  {
+   "iter": 271,
+   "consistency": 0.4117,
+   "points": 1687,
+   "overlap": 0.5883
+  },
+  {
+   "iter": 272,
+   "consistency": 0.4118,
+   "points": 1687,
+   "overlap": 0.5882
+  },
+  {
+   "iter": 273,
+   "consistency": 0.4117,
+   "points": 1687,
+   "overlap": 0.5883
+  },
+  {
+   "iter": 274,
+   "consistency": 0.4114,
+   "points": 1687,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 275,
+   "consistency": 0.4118,
+   "points": 1687,
+   "overlap": 0.5882
+  },
+  {
+   "iter": 276,
+   "consistency": 0.4117,
+   "points": 1688,
+   "overlap": 0.5883
+  },
+  {
+   "iter": 277,
+   "consistency": 0.4118,
+   "points": 1687,
+   "overlap": 0.5882
+  },
+  {
+   "iter": 278,
+   "consistency": 0.4116,
+   "points": 1687,
+   "overlap": 0.5884
+  },
+  {
+   "iter": 279,
+   "consistency": 0.412,
+   "points": 1687,
+   "overlap": 0.588
+  },
+  {
+   "iter": 280,
+   "consistency": 0.4119,
+   "points": 1687,
+   "overlap": 0.5881
+  },
+  {
+   "iter": 281,
+   "consistency": 0.4119,
+   "points": 1687,
+   "overlap": 0.5881
+  },
+  {
+   "iter": 282,
+   "consistency": 0.4117,
+   "points": 1687,
+   "overlap": 0.5883
+  },
+  {
+   "iter": 283,
+   "consistency": 0.4116,
+   "points": 1688,
+   "overlap": 0.5884
+  },
+  {
+   "iter": 284,
+   "consistency": 0.4116,
+   "points": 1687,
+   "overlap": 0.5884
+  },
+  {
+   "iter": 285,
+   "consistency": 0.412,
+   "points": 1687,
+   "overlap": 0.588
+  },
+  {
+   "iter": 286,
+   "consistency": 0.4118,
+   "points": 1687,
+   "overlap": 0.5882
+  },
+  {
+   "iter": 287,
+   "consistency": 0.4114,
+   "points": 1687,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 288,
+   "consistency": 0.4114,
+   "points": 1688,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 289,
+   "consistency": 0.4114,
+   "points": 1687,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 290,
+   "consistency": 0.4118,
+   "points": 1687,
+   "overlap": 0.5882
+  },
+  {
+   "iter": 291,
+   "consistency": 0.4114,
+   "points": 1687,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 292,
+   "consistency": 0.4115,
+   "points": 1688,
+   "overlap": 0.5885
+  },
+  {
+   "iter": 293,
+   "consistency": 0.4115,
+   "points": 1687,
+   "overlap": 0.5885
+  },
+  {
+   "iter": 294,
+   "consistency": 0.4116,
+   "points": 1687,
+   "overlap": 0.5884
+  },
+  {
+   "iter": 295,
+   "consistency": 0.4115,
+   "points": 1687,
+   "overlap": 0.5885
+  },
+  {
+   "iter": 296,
+   "consistency": 0.4115,
+   "points": 1687,
+   "overlap": 0.5885
+  },
+  {
+   "iter": 297,
+   "consistency": 0.4118,
+   "points": 1687,
+   "overlap": 0.5882
+  },
+  {
+   "iter": 298,
+   "consistency": 0.4115,
+   "points": 1687,
+   "overlap": 0.5885
+  },
+  {
+   "iter": 299,
+   "consistency": 0.4114,
+   "points": 1687,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 300,
+   "consistency": 0.4114,
+   "points": 1687,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 301,
+   "consistency": 0.4114,
+   "points": 1687,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 302,
+   "consistency": 0.4113,
+   "points": 1687,
+   "overlap": 0.5887
+  },
+  {
+   "iter": 303,
+   "consistency": 0.4115,
+   "points": 1687,
+   "overlap": 0.5885
+  },
+  {
+   "iter": 304,
+   "consistency": 0.4115,
+   "points": 1687,
+   "overlap": 0.5885
+  },
+  {
+   "iter": 305,
+   "consistency": 0.4114,
+   "points": 1688,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 306,
+   "consistency": 0.4114,
+   "points": 1687,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 307,
+   "consistency": 0.4116,
+   "points": 1687,
+   "overlap": 0.5884
+  },
+  {
+   "iter": 308,
+   "consistency": 0.4114,
+   "points": 1687,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 309,
+   "consistency": 0.4116,
+   "points": 1687,
+   "overlap": 0.5884
+  },
+  {
+   "iter": 310,
+   "consistency": 0.4114,
+   "points": 1688,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 311,
+   "consistency": 0.4115,
+   "points": 1687,
+   "overlap": 0.5885
+  },
+  {
+   "iter": 312,
+   "consistency": 0.4115,
+   "points": 1687,
+   "overlap": 0.5885
+  },
+  {
+   "iter": 313,
+   "consistency": 0.4113,
+   "points": 1687,
+   "overlap": 0.5887
+  },
+  {
+   "iter": 314,
+   "consistency": 0.4113,
+   "points": 1687,
+   "overlap": 0.5887
+  },
+  {
+   "iter": 315,
+   "consistency": 0.4115,
+   "points": 1687,
+   "overlap": 0.5885
+  },
+  {
+   "iter": 316,
+   "consistency": 0.4114,
+   "points": 1687,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 317,
+   "consistency": 0.4115,
+   "points": 1687,
+   "overlap": 0.5885
+  },
+  {
+   "iter": 318,
+   "consistency": 0.4114,
+   "points": 1687,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 319,
+   "consistency": 0.4114,
+   "points": 1687,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 320,
+   "consistency": 0.4113,
+   "points": 1687,
+   "overlap": 0.5887
+  },
+  {
+   "iter": 321,
+   "consistency": 0.4114,
+   "points": 1687,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 322,
+   "consistency": 0.4115,
+   "points": 1687,
+   "overlap": 0.5885
+  },
+  {
+   "iter": 323,
+   "consistency": 0.4115,
+   "points": 1687,
+   "overlap": 0.5885
+  },
+  {
+   "iter": 324,
+   "consistency": 0.4115,
+   "points": 1687,
+   "overlap": 0.5885
+  },
+  {
+   "iter": 325,
+   "consistency": 0.4113,
+   "points": 1687,
+   "overlap": 0.5887
+  },
+  {
+   "iter": 326,
+   "consistency": 0.4114,
+   "points": 1687,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 327,
+   "consistency": 0.4114,
+   "points": 1687,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 328,
+   "consistency": 0.4116,
+   "points": 1687,
+   "overlap": 0.5884
+  },
+  {
+   "iter": 329,
+   "consistency": 0.4113,
+   "points": 1687,
+   "overlap": 0.5887
+  },
+  {
+   "iter": 330,
+   "consistency": 0.4114,
+   "points": 1687,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 331,
+   "consistency": 0.4113,
+   "points": 1687,
+   "overlap": 0.5887
+  },
+  {
+   "iter": 332,
+   "consistency": 0.4113,
+   "points": 1687,
+   "overlap": 0.5887
+  },
+  {
+   "iter": 333,
+   "consistency": 0.4115,
+   "points": 1687,
+   "overlap": 0.5885
+  },
+  {
+   "iter": 334,
+   "consistency": 0.4114,
+   "points": 1687,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 335,
+   "consistency": 0.4113,
+   "points": 1687,
+   "overlap": 0.5887
+  },
+  {
+   "iter": 336,
+   "consistency": 0.4115,
+   "points": 1687,
+   "overlap": 0.5885
+  },
+  {
+   "iter": 337,
+   "consistency": 0.4113,
+   "points": 1687,
+   "overlap": 0.5887
+  },
+  {
+   "iter": 338,
+   "consistency": 0.4113,
+   "points": 1687,
+   "overlap": 0.5887
+  },
+  {
+   "iter": 339,
+   "consistency": 0.4114,
+   "points": 1687,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 340,
+   "consistency": 0.4115,
+   "points": 1687,
+   "overlap": 0.5885
+  },
+  {
+   "iter": 341,
+   "consistency": 0.4114,
+   "points": 1687,
+   "overlap": 0.5886
+  },
+  {
+   "iter": 342,
+   "consistency": 0.4113,
+   "points": 1687,
+   "overlap": 0.5887
+  },
+  {
+   "iter": 343,
+   "consistency": 0.4113,
+   "points": 1687,
+   "overlap": 0.5887
+  }
+ ]
+}

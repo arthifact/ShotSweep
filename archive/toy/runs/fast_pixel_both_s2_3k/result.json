@@ -1,0 +1,33 @@
+{
+ "args": {
+  "input": "both",
+  "state": "pixel",
+  "stages": 2,
+  "steps": 3000,
+  "ntrain": 1000,
+  "bs": 16,
+  "lr": 0.002,
+  "threads": 2,
+  "name": "pixel_both_s2_3k",
+  "nolive": true
+ },
+ "stages": [
+  {
+   "stage": 0,
+   "test_err_ratio": 0.3446110785007477,
+   "ellipse": 0.43310314416885376,
+   "fault": 0.29151591658592224,
+   "misfit_ratio": 0.03156131133437157,
+   "train_s": 392.857097864151
+  },
+  {
+   "stage": 1,
+   "test_err_ratio": 0.3175600469112396,
+   "ellipse": 0.42010796070098877,
+   "fault": 0.25603124499320984,
+   "misfit_ratio": 0.6322131752967834,
+   "train_s": 318.9323818683624
+  }
+ ],
+ "total_s": 745.3043088912964
+}
