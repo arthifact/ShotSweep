@@ -1,4 +1,4 @@
-# openfwi: learned velocity inversion with per-shot wave-equation images
+# ShotSweep pipeline: learned velocity inversion with per-shot wave-equation images
 
 Method: see [METHOD.md](METHOD.md). Four steps, each one script, run from the repository root.
 

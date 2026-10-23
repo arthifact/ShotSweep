@@ -1,4 +1,7 @@
-# Learned seismic velocity inversion with per-shot wave-equation images
+# ShotSweep
+
+Learned seismic velocity inversion with per-shot wave-equation images: every shot's recording is migrated through a
+sweep of slow, medium and fast background velocities, and the network reads where the shots agree.
 
 Goal: estimate subsurface velocity from surface seismic recordings (the OpenFWI 2D benchmark: 70 x 70 models,
 5 shots, 70 receivers) with a network that receives, besides the raw recordings, what the wave physics can already

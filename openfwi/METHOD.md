@@ -1,4 +1,4 @@
-# Our method: seeing the subsurface from every shot
+# ShotSweep: seeing the subsurface from every shot
 
 The first version of our pipeline read the five shot recordings like a flat-layer processor would: it picked slopes, voted for flat reflectors and handed the network a layered guess. That worked on flat geology and broke on folds, faults and textured models. The second version stops guessing the geology for the network. It gives the network what the physics can see, from every shot and under several velocity hypotheses, and lets the network decide.
 
