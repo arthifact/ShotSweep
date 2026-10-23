@@ -1,0 +1,24 @@
+name: Regression tests
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  cpu-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      OMP_NUM_THREADS: '2'
+      MKL_NUM_THREADS: '2'
+      MPLCONFIGDIR: /tmp/shotsweep-matplotlib
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.12.19'
+          python-version: '3.12'
+          enable-cache: true
+      - run: uv sync --frozen --extra cpu
+      - run: uv run --frozen --extra cpu python -m unittest discover -s tests -v

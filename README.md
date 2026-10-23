@@ -19,9 +19,9 @@ background velocities. Everything is general: no family-specific code, no flat-l
 |---|---|
 | Data: one official file pair per family, all ten 2D families (500 models each) | downloaded and checked on the development machine; `1_data.py --download` fetches them (about 7 GB) |
 | Simulator: matches the official gathers | 4-7.5 % relative residual on held-out models of all ten families with one calibrated source wavelet |
-| Processing: per-shot images at three backgrounds | implemented, about 1 s per model on an Apple M4 Pro GPU; checked visually ([figure](openfwi/results/figures/imaging_steps.png)) |
-| Training: our network and the InversionNet baseline | implemented and smoke-tested end to end; **full training not run yet** (moving to a lab workstation) |
-| Testing: per-family OpenFWI metrics, tables, figures | implemented and smoke-tested |
+| Processing: per-shot images at three backgrounds | corrected discrete adjoint, short-offset surface estimates with rejection/diagnostics, versioned caches; old cached images must be regenerated |
+| Training: our network and the InversionNet baseline | regression tests, separate validation, calibrated EMA, atomic resumable checkpoints; **full training not run yet** |
+| Testing: per-family OpenFWI metrics, tables, figures | official Gaussian SSIM convention; incompatible budgets, datasets and duplicate seeds are rejected |
 | Test-time physics check and refinement (described in METHOD.md) | **not implemented yet** |
 
 There are no results for this architecture yet. Earlier experiments with a different, flat-layer version of the physics
@@ -45,12 +45,24 @@ per-shot images at 3 backgrounds ──► encoder shared by the 5 shots ──�
 * **Fusion:** one encoder shared by all shots; the mean over shots and the standard deviation over shots
   (disagreement) feed a U-Net, which also receives the medium background velocity and, at its 9 x 9 bottleneck, the
   InversionNet code of the raw gathers.
-* **Training:** all ten families pooled, models 0-451 of each file for training and 452-499 for testing; loss
-  L1 + 0.5 (1 - multi-scale SSIM); left-right mirroring; the image branch switched off for 30 % of samples (modality
-  dropout); AdamW, cosine schedule, weight averaging.
-* **Baseline:** InversionNet (the OpenFWI reference network) trained on exactly the same data, steps and loss, plus its
-  original L1-only recipe.
-* **Ablations:** one background instead of three (`ours_k1`); images without the raw gathers (`ours_noraw`).
+* **Training:** all ten families pooled, models 0-399 of each file for training, 400-451 for validation, and 452-499
+  for testing. Loss is L1 + 0.5 (1 - mean SSIM across three resolutions), with SSIM inputs mapped to [0,1].
+  This is an arithmetic multiresolution objective, not the conventional product MS-SSIM. Naive mirroring is disabled:
+  the middle source is not mirror symmetric. Image dropout is 30%; AdamW, cosine schedule and EMA are retained.
+  EMA BatchNorm statistics are recalculated using training inputs before validation/export.
+* **Baseline:** InversionNet (the OpenFWI reference network) trained on the same data, steps and loss, plus an
+  additional L1-only loss variant. The optimizer/schedule remain this project's matched recipe.
+* **Ablations:** one background instead of three (`ours_k1`); images without the raw gathers (`ours_noraw`);
+  the same decoder and parameter budget using only raw gathers (`ours_raw`, images and background forced to zero).
+
+The three backgrounds and mean/spread fusion are research hypotheses. Shot disagreement also depends on aperture,
+illumination and geology; it is not a unique estimate of local velocity. Surface estimates with inconsistent
+short-offset picks are rejected. Confidence is a diagnostic score, not a calibrated uncertainty probability.
+The within-file split is intended for a pilot; separate files/official test data are required for broader claims.
+
+Run regression tests with `uv run --frozen --extra cpu python -m unittest discover -s tests -v`.
+See [the pilot instructions](openfwi/README.md) for isolated datasets, device checks, resume and evaluation.
+The [pilot verification record](openfwi/PILOT_CHECK.md) documents the CPU checks and the remaining target-machine gate.
 
 Points we would like validated: whether three backgrounds of the form "surface velocity + scaled mean trend" are a
 sound way to expose velocity information; the fusion by mean and spread over shots; the comparison protocol

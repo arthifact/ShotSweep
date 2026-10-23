@@ -1,96 +1,59 @@
 {
- "n_train": 452,
- "n_total": 500,
- "families": {
-  "flatvel-a": {
-   "gathers": "data/flatvel-a/data1.npy",
-   "models": "data/flatvel-a/model1.npy",
-   "ok": true,
-   "velocity_range_first50": [
-    1507.0,
-    4500.0
-   ]
+  "n_train": 400,
+  "n_total": 500,
+  "families": {
+    "flatvel-a": {
+      "gathers": "data/flatvel-a/data1.npy",
+      "models": "data/flatvel-a/model1.npy",
+      "ok": false
+    },
+    "flatvel-b": {
+      "gathers": "data/flatvel-b/data1.npy",
+      "models": "data/flatvel-b/model1.npy",
+      "ok": false
+    },
+    "curvevel-a": {
+      "gathers": "data/curvevel-a/data1.npy",
+      "models": "data/curvevel-a/model1.npy",
+      "ok": false
+    },
+    "curvevel-b": {
+      "gathers": "data/curvevel-b/data1.npy",
+      "models": "data/curvevel-b/model1.npy",
+      "ok": false
+    },
+    "flatfault-a": {
+      "gathers": "data/flatfault-a/seis2_1_0.npy",
+      "models": "data/flatfault-a/vel2_1_0.npy",
+      "ok": false
+    },
+    "flatfault-b": {
+      "gathers": "data/flatfault-b/seis6_1_0.npy",
+      "models": "data/flatfault-b/vel6_1_0.npy",
+      "ok": false
+    },
+    "curvefault-a": {
+      "gathers": "data/curvefault-a/seis2_1_0.npy",
+      "models": "data/curvefault-a/vel2_1_0.npy",
+      "ok": false
+    },
+    "curvefault-b": {
+      "gathers": "data/curvefault-b/seis6_1_0.npy",
+      "models": "data/curvefault-b/vel6_1_0.npy",
+      "ok": false
+    },
+    "style-a": {
+      "gathers": "data/style-a/data1.npy",
+      "models": "data/style-a/model1.npy",
+      "ok": false
+    },
+    "style-b": {
+      "gathers": "data/style-b/data1.npy",
+      "models": "data/style-b/model1.npy",
+      "ok": false
+    }
   },
-  "flatvel-b": {
-   "gathers": "data/flatvel-b/data1.npy",
-   "models": "data/flatvel-b/model1.npy",
-   "ok": true,
-   "velocity_range_first50": [
-    1520.0,
-    4459.0
-   ]
-  },
-  "curvevel-a": {
-   "gathers": "data/curvevel-a/data1.npy",
-   "models": "data/curvevel-a/model1.npy",
-   "ok": true,
-   "velocity_range_first50": [
-    1502.0,
-    4489.0
-   ]
-  },
-  "curvevel-b": {
-   "gathers": "data/curvevel-b/data1.npy",
-   "models": "data/curvevel-b/model1.npy",
-   "ok": true,
-   "velocity_range_first50": [
-    1506.0,
-    4496.0
-   ]
-  },
-  "flatfault-a": {
-   "gathers": "data/flatfault-a/seis2_1_0.npy",
-   "models": "data/flatfault-a/vel2_1_0.npy",
-   "ok": true,
-   "velocity_range_first50": [
-    1597.0,
-    4448.9580078125
-   ]
-  },
-  "flatfault-b": {
-   "gathers": "data/flatfault-b/seis6_1_0.npy",
-   "models": "data/flatfault-b/vel6_1_0.npy",
-   "ok": true,
-   "velocity_range_first50": [
-    1517.0,
-    4485.0
-   ]
-  },
-  "curvefault-a": {
-   "gathers": "data/curvefault-a/seis2_1_0.npy",
-   "models": "data/curvefault-a/vel2_1_0.npy",
-   "ok": true,
-   "velocity_range_first50": [
-    1526.0,
-    4459.4970703125
-   ]
-  },
-  "curvefault-b": {
-   "gathers": "data/curvefault-b/seis6_1_0.npy",
-   "models": "data/curvefault-b/vel6_1_0.npy",
-   "ok": true,
-   "velocity_range_first50": [
-    1501.0,
-    4480.0
-   ]
-  },
-  "style-a": {
-   "gathers": "data/style-a/data1.npy",
-   "models": "data/style-a/model1.npy",
-   "ok": true,
-   "velocity_range_first50": [
-    1538.791748046875,
-    4384.32421875
-   ]
-  },
-  "style-b": {
-   "gathers": "data/style-b/data1.npy",
-   "models": "data/style-b/model1.npy",
-   "ok": true,
-   "velocity_range_first50": [
-    1563.525634765625,
-    4339.09912109375
-   ]
-  }
- }
+  "schema_version": 2,
+  "n_val": 52,
+  "protocol": "within-file-pilot-v2"
 }

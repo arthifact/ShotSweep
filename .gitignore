@@ -10,6 +10,9 @@ openfwi/data/**/*.npy
 openfwi/work/
 openfwi/logs/
 openfwi/results/preds/
+openfwi/results/**/preds/
+openfwi/pilots/
+.cache/
 *.pt
 
 # archive: keep code, notes and figures, not data

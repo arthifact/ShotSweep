@@ -1,39 +1,55 @@
-# ShotSweep: seeing the subsurface from every shot
+# ShotSweep: inputs, model and validation
 
-The first version of our pipeline read the five shot recordings like a flat-layer processor would: it picked slopes, voted for flat reflectors and handed the network a layered guess. That worked on flat geology and broke on folds, faults and textured models. The second version stops guessing the geology for the network. It gives the network what the physics can see, from every shot and under several velocity hypotheses, and lets the network decide.
+ShotSweep estimates a 70×70 velocity model from five surface seismic recordings. It combines raw gathers with
+per-shot wave-equation images computed under three trial backgrounds. This is a research hypothesis: the physics
+images may improve data efficiency, but their agreement does not uniquely determine local velocity.
 
-## The training and architecture
+## Physics-derived inputs
 
-Everything runs on a single GPU: the wave simulations that make the images and the network that learns from them. It was developed on an Apple M4 Pro laptop (Apple GPU) and runs unchanged on a CUDA workstation, so we control the data, the physics and the network end to end.
+The mean depth trend is fitted from training velocity labels only. A source wavelet is calibrated using two training
+models per family. Each example gets a surface-velocity anchor fitted to thresholded arrivals at offsets 10–60 m.
+Fit curvature, residual and shot disagreement are checked; inconsistent picks are rejected. Longer offsets diagnose
+possible refraction. These diagnostics are heuristic, and very shallow refractors/lateral variation remain limitations.
 
-To improve the network's guesses, we combine three ideas.
+Three laterally constant backgrounds are the surface anchor plus 0.6, 1.0 and 1.4 times the training depth trend,
+clipped to 1500–4500 m/s. They need not bracket the true model, particularly for velocity inversions or complex geology.
+For every shot/background, the discrete adjoint produces a negative data-misfit gradient, including replicated
+boundary-velocity and velocity-dependent source-injection derivatives. A direct-wave mute is held fixed during
+differentiation. Illumination normalization and a Laplacian filter emphasize spatial structure. The first two image
+rows are zeroed. Each example's 15 images share a 99th-percentile scale, preserving relative amplitudes.
 
-### 1. Multi-view awareness
+Wavefield checkpointing recomputes short time segments during the adjoint to bound memory. Regression tests compare
+derivatives with finite differences in the interior, at boundaries and at sources. Data, code, calibration and split
+fingerprints prevent silently reusing old processing outputs.
 
-A single shot sees the subsurface from one side only. Instead of stacking the five shots as anonymous channels, the network treats them as five views of the same ground. One shared encoder reads each shot, and the views are fused so that every shot is handled the same way. Where the shots agree, the network can trust what it sees. Where they disagree, the velocity guess behind the image is wrong, and that disagreement is itself the signal the network learns from.
+## Architecture
 
-### 2. Rich pixel input
+An InversionNet encoder turns the raw gathers into a 512-dimensional code. A second encoder, shared by all five
+shots, reads the three background images as channels. The mean and standard deviation of its features across shots,
+plus the medium background velocity, feed a U-Net. The raw code joins at the 9×9 bottleneck, and the final output
+uses tanh to stay within the velocity range.
 
-Raw recordings live in time and receiver position, not in the subsurface. So for every shot we back-propagate the recording through the wave equation into the subsurface, producing an image on the same 70 by 70 grid as the answer. Each pixel then carries:
+Mean/spread fusion is a simple permutation-invariant summary. It discards explicit source identity and may discard
+useful directional information; its adequacy requires experiments. The raw branch retains information lost by
+migration, scaling or shot pooling. Image disagreement can reflect aperture, illumination, background errors or
+geology, so it is not a calibrated confidence measure.
 
-* **Reflector identity:** whether a boundary between rock layers passes through this pixel, and how strong it is.
-* **Polarity:** whether velocity steps up or down across that boundary, which is what reveals slow layers hidden under fast ones.
-* **Velocity cues:** the same image computed under three background velocities, slow, medium and fast. A reflector that sits still across the five shots under one background, and drifts apart under the others, tells the network which velocity is right at that pixel.
-* **Depth trend:** the background velocity itself, measured from the direct wave at the surface, so the network knows the large-scale increase of velocity with depth.
+Controls are the upstream InversionNet decoder, the same U-Net using raw gathers only (`ours_raw`), one background
+(`ours_k1`), and no raw branch (`ours_noraw`). The raw-only control zeros both images and background internally.
 
-The raw recordings stay as a second input, so nothing the images miss is lost.
+## Training and scoring
 
-### Conditioning the loss function
+The default within-file split is 400 training, 52 validation and 48 test models per family. Source/trend calibration,
+normalization and EMA BatchNorm recalibration use training data only. The objective is L1 on [-1,1] velocity plus
+0.5 times one minus mean SSIM over three resolutions on [0,1] inputs. This is not conventional product MS-SSIM.
+AdamW, cosine decay, EMA and image-modality dropout are used. Naive mirror augmentation is disabled because the
+central source at column 34 reflects to column 35 in the 70-column grid.
 
-Rather than relying only on pixel-by-pixel error, we shape what the network pays attention to:
+Atomic checkpoints preserve optimizer, scheduler, RNG and both live/EMA states for recovery. Before scoring/export,
+EMA normalization statistics are recalculated from training examples. Validation guides pilot decisions; test results
+are kept separate. Scores use official OpenFWI SSIM and unrounded errors; mixed experiments and duplicate seeds
+cannot silently enter the same average.
 
-* **Structural similarity (MS-SSIM):** pushes the training to get interfaces, faults and layer shapes right, not just average velocities. Published tests show it gives sharper velocity maps than pixel losses alone.
-* **Physics consistency:** after the network predicts a model, we simulate the recordings it would produce and compare them with the real ones. When the two agree to within half a wave period, a few physics refinement steps finish the job. When they do not, we keep the network's answer instead of letting the physics drift into a wrong solution.
-
-### Robustness
-
-During training the image branch is randomly switched off part of the time, so the network never relies blindly on one input. Models and recordings are mirrored together, and all ten OpenFWI geology families are trained at once, the single strongest generalization gain reported on this benchmark.
-
-## What it is built to do
-
-By feeding the network images from every shot under several velocity hypotheses, and by checking its answers against the physics, the method is designed to recover curved layers, faults and textured geology that defeat flat-layer processing, and to learn from far fewer training models than networks that see only raw recordings. We will measure that against the same network on raw recordings and against InversionNet retrained on identical data, family by family, with the standard OpenFWI metrics.
+The pilot establishes software behavior and permits preliminary within-file comparison. Independent files, multiple
+seeds, harder families and matched learning curves are needed to establish generalization or data efficiency.
+Test-time forward-physics checking and refinement are future work; the current pipeline does not perform them.
